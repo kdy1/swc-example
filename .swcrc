@@ -4,5 +4,8 @@
             "syntax": "ecmascript",
             "classPrivateProperty": true
         }
+    },
+    "module": {
+        "type": "commonjs"
     }
 }
