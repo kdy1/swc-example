@@ -2,7 +2,8 @@
     "jsc": {
         "parser": {
             "syntax": "ecmascript",
-            "classPrivateProperty": true
+            "classPrivateProperty": true,
+            "dynamicImport": true
         }
     },
     "module": {
