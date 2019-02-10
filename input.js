@@ -8,6 +8,6 @@ class Foo extends
     Bar {
 
     foo() {
-        let foo = import("foo");
+        import("foo").then(foo => { });
     }
 }
