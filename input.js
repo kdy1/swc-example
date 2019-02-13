@@ -1,13 +1,19 @@
-import foo, { test } from 'foo';
-import * as bar from 'bar';
-
-/**
- * Foo
- */
-class Foo extends
-    Bar {
-
-    foo() {
-        import("foo").then(foo => { });
+export class Foo {
+    func(a, b = Date.now()) {
+        return { a };
     }
 }
+
+function func(a, b = Date.now()) {
+    return { a };
+}
+
+_createClass(Foo, [{
+    key: 'func',
+    value: function func(a, b = Date.now()) {
+
+        return {
+            a: a
+        };
+    }
+}]);
