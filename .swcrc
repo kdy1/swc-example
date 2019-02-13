@@ -5,8 +5,5 @@
             "classPrivateProperty": true,
             "dynamicImport": true
         }
-    },
-    "module": {
-        "type": "commonjs"
     }
 }
