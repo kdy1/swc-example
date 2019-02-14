@@ -1,2 +1,4 @@
-const NUM = 1;
-export default NUM;
+function Foo() {
+    return "function Foo";
+}
+export default Foo;

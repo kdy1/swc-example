@@ -1,2 +1,4 @@
-import Foo from './foo.js';
-console.log(Foo);
+function Bar() {
+    return "function Bar";
+}
+export { Bar, };
