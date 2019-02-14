@@ -3,6 +3,7 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/plugin-transform-classes": "^7.2.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
     "swc": "^1.0.0-beta.29",
     "swc-cli": "^0.1.5"
   },
