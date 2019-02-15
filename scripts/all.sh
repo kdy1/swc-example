@@ -2,5 +2,5 @@
 
 set -e
 
-npx swc input.js inputs/**/*.js -d out
-npx swc input.js inputs/**/*.ts -d out
+npx swc inputs -d out
+npx babel inputs -d out-babel
