@@ -1,8 +1,14 @@
 {
-    "jsc": {
-        "parser": {
-            "syntax": "ecmascript",
-            "exportDefaultFrom": true
-        }
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "dynamicImport": true,
+      "classProperty": true,
+      "exportDefaultFrom": true,
+      "jsx": true
     }
+  },
+  "module": {
+    "type": "commonjs"
+  }
 }

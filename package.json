@@ -4,9 +4,8 @@
     "@babel/core": "^7.2.2",
     "@babel/plugin-transform-classes": "^7.2.2",
     "@babel/plugin-transform-modules-commonjs": "^7.2.0",
-    "@swc/core": "^1.0.12",
-    "swc": "^1.0.0-beta.29",
-    "swc-cli": "^0.1.5"
+    "@swc/cli": "^0.1.12",
+    "@swc/core": "^1.0.13"
   },
   "dependencies": {
     "sourcemap-validator": "^1.1.0"
