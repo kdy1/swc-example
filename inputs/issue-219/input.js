@@ -1,1 +1,2 @@
-export Foo from 'bar';
+export Foo from 'foo';
+export default from 'bar';
