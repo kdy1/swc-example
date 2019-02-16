@@ -1,6 +1,4 @@
+// bar.js
 import Foo from './foo.js';
-import { Bar, } from './bar.js';
-import * as Bar2 from './bar.js';
+// `Foo` should be eq `1`. not an object ( `{ 'default': 1}` )
 console.log(Foo);
-console.log(Bar);
-console.log(Bar2);

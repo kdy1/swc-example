@@ -1,6 +1,7 @@
 {
     "module": {
         "type": "commonjs",
-        "strict": true
+        "strict": true,
+        "noInterop": true
     }
 }
